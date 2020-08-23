@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mapping-config>
+    <dto-list>
+        <dto-item full-class-name="test.dto.class1">
+            <contexts>
+                <context operation-name="testOperationName1" operation-type="testOperationType1">
+                    <fields-include>
+                        <field>operationSum</field>
+                        <field>subject</field>
+                        <field>date</field>
+                        <field>result</field>
+                    </fields-include>
+                </context>
+                <context operation-name="testOperationName3" operation-type="testOperationType3">
+                    <fields-include>
+                        <field>sum</field>
+                        <field>subject</field>
+                        <field>timestamp</field>
+                        <field>district</field>
+                    </fields-include>
+                </context>
+            </contexts>
+        </dto-item>
+        <dto-item full-class-name="test.dto.class2">
+            <contexts>
+                <context operation-name="testOperationName2" operation-type="testOperationType2">
+                    <fields-include>
+                        <field>sum</field>
+                        <field>subject</field>
+                        <field>timestamp</field>
+                        <field>district</field>
+                    </fields-include>
+                </context>
+                <context operation-name="testOperationName4" operation-type="testOperationType4">
+                    <fields-include>
+                        <field>operationSum</field>
+                        <field>subject</field>
+                        <field>date</field>
+                        <field>result</field>
+                    </fields-include>
+                </context>
+            </contexts>
+        </dto-item>
+    </dto-list>
+</mapping-config>
